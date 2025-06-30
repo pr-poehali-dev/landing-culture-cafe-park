@@ -25,7 +25,7 @@ export default function Contact() {
   ];
 
   return (
-    <section className="bg-gray-900 py-20 px-4">
+    <section className="bg-red-900 py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl text-white mb-4">
@@ -38,7 +38,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {contacts.map((contact, index) => (
-            <Card key={index} className="bg-gray-800 border-gray-700">
+            <Card key={index} className="bg-red-800 border-red-700">
               <CardContent className="p-8 text-center">
                 <h3 className="font-montserrat font-semibold text-xl text-white mb-6">
                   {contact.name}
@@ -74,7 +74,7 @@ export default function Contact() {
           </p>
           <Button
             size="lg"
-            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3"
+            className="bg-green-700 hover:bg-green-800 text-white px-8 py-3"
           >
             Связаться с нами
           </Button>

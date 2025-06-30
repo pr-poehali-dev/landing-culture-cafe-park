@@ -5,7 +5,7 @@ export default function Services() {
   const services = [
     {
       category: "Культурный центр Амбар",
-      icon: "Theater",
+      icon: "Home",
       items: [
         "Лекции и семинары",
         "Мастер-классы",
@@ -61,7 +61,7 @@ export default function Services() {
                   <Icon
                     name={service.icon as any}
                     size={32}
-                    className="text-purple-600 mr-3"
+                    className="text-green-600 mr-3"
                   />
                   <h3 className="font-montserrat font-semibold text-xl text-gray-900">
                     {service.category}
@@ -74,7 +74,7 @@ export default function Services() {
                       <Icon
                         name="Check"
                         size={16}
-                        className="text-purple-600 mr-3 mt-1 flex-shrink-0"
+                        className="text-green-600 mr-3 mt-1 flex-shrink-0"
                       />
                       <span className="font-open-sans text-gray-700">
                         {item}
